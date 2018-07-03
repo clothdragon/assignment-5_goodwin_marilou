@@ -1,6 +1,7 @@
 
 body {
   background-color: #D6EAF8;
+  min-width: 300px;
 }
 
 .container {
@@ -9,11 +10,12 @@ body {
 }
 
 form {
-  width: 50%;
+  width: 60%;
+  min-width: 300px;
   margin: auto;
   border: solid #A93226 1px;
   text-align: right;
-  padding: 15px;
+  padding: 10px;
   border-radius: 5px;
   background-color: #FCF3CF;
 }
@@ -47,10 +49,9 @@ label {
   font-weight: bold;
 }
 
-
 button {
   padding: 5px;
-  margin: 5% 40%;
+  margin: 2% 40%;
   width: 100px;
   text-align: center;
   color: #A93226;
@@ -67,4 +68,59 @@ h1, h2{
   width: 100%;
   text-align: center;
   color: #A93226;
+}
+
+.custom {
+  width: 60%;
+  min-width: 300px;
+  margin: 10px auto;
+  border: solid #A93226 1px;
+  text-align: right;
+  padding: 15px;
+  border-radius: 5px;
+  display: grid;
+  grid-gap: 3px;
+}
+
+#item1 {
+  background-color: red;
+  text-align: center;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+  border: 2px black solid;
+}
+
+#item2 {
+  background-color: #FDEBD0;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+  border: 2px black solid;
+}
+
+#item3 {
+  background-color: #48C9B0;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+  border: 2px red solid;
+}
+
+#item4 {
+  background-color: #5B2C6F;
+  text-align: center;
+  color: white;
+  padding: 15px;
+  font-weight: bold;
+  border: 2px #641E16 solid;
+}
+
+#item5 {
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 15px;
+  font-weight: bold;
+  border: 2px #641E16 solid;
 }
